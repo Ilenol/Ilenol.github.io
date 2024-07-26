@@ -1,7 +1,8 @@
 let def=0;
 let styleChanger = document.querySelector("#colar");
 let reminder=document.querySelector("#reminder");
-function changeColar(){
+let changeColarButton=document.querySelector("#avatar");
+changeColarButton.addEventListener("click",function changeColar(){
     if(def===0){  //黑換白
         styleChanger.href="css/style2.css";
         def=1;
@@ -16,6 +17,7 @@ function changeColar(){
         reminder.innerHTML="ps:If U wanna change this website to bright version.<br/>Just ckick on my avatar.";
     }
 }
+)
 
 let control=0;
 let easterStyle=document.querySelector(".easter");

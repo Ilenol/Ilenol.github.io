@@ -5,7 +5,7 @@
     bottom: 0;
     right: 0;
     z-index: -999;
-    background-image:url("/personal blog/png or jpg/backGround.png");
+    background-image:url("../png or jpg/backGround.png");
     background-size: cover;
     background-position: center;
 }
