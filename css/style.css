@@ -1,0 +1,41 @@
+.backGround{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -999;
+    background-image:url("/personal blog/png or jpg/背景.png");
+    background-size: cover;
+    background-position: center;
+}
+.backGround img{
+    min-height: 100%;
+    width: 100%;
+}
+.title{
+    font-size: 50px;
+}
+*{
+    color:white;
+}
+.intext{
+    font-size:30px;
+}
+.intext2{
+    font-size:25px;
+}
+.logo{
+    width: 30px;
+}
+.easter{
+    margin-top: 150px;
+    font-size: 18px;
+}
+#onEaster{
+    position:fixed;
+    top:55%;
+    left:80.26%;
+    width:50px;
+    height:80px;
+}

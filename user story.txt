@@ -3,3 +3,26 @@ My GitHub profile:https://github.com/Ilenol
 My education:海洋大學在學證明.jpg
 work experience: none
 My honors: none
+
+.backGround{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -999;
+    background-image:url("/personal blog/png or jpg/背景.png");
+    background-size: cover;
+    background-position: center;
+}
+.backGround img{
+    min-height: 100%;
+    width: 100%;
+}
+<u1>
+            <li>
+                2020~2023年間 就讀於</br>
+                新北市立海山高級中學。
+                Hai-Shan High School。
+            </li>
+        </u1>

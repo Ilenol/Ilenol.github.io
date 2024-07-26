@@ -1,0 +1,79 @@
+.backGround{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -999;
+    background-image:url("/personal blog/png or jpg/背景2.png");
+    background-size: cover;
+    background-position: top;
+}
+.backGround img{
+    min-height: 100%;
+    width: 100%;
+}
+.title{
+    font-size: 50px;
+}
+.intext{
+    font-size:30px;
+}
+.intext2{
+    font-size: 25px;
+}
+
+.timeline {
+    list-style: none;
+}
+
+ul {
+    margin-bottom: 1.5em;
+}
+
+.timeline li {
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+}
+
+.timeline-content {
+    width: 40%;
+    float: left;
+    border-left: 3px #bfbaa5 solid;
+    padding-left: 30px;
+}
+
+.timeline-content:before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: black;
+    position: absolute;
+    left: 166px;
+    top: 24px;
+    border-radius: 100%;
+}
+
+.timeline-date {
+    width: 170px;
+    float: left;
+    margin: 0px;
+    font-size: 20px;
+}
+
+.logo{
+    width: 30px;
+}
+
+.easter{
+    margin-top: 150px;
+    font-size: 18px;
+}
+#onEaster{
+    position:fixed;
+    top:55%;
+    left:80.26%;
+    width:50px;
+    height:80px;
+}
