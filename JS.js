@@ -27,14 +27,15 @@ function operator(){
         easterStyle.style="opacity: 100%;";
     }
     else if(def===0 && control===1){
-        easterStyle.style="opacity: 0%;";
         control=0;
+        easterStyle.style="opacity: 0%;";
     }
 }
 
 let randomNumber=0;
 let musicChanger=document.querySelector("#Music");
-function randomMusic1(){
+let musicEventlistener=document.querySelector(".logo");
+musicEventlistener.addEventListener("click",function randomMusic1(){
     if(def===0 && control===1){
         randomNumber=Math.random();
         randomNumber=Math.round(randomNumber*10);
@@ -50,4 +51,5 @@ function randomMusic1(){
         else if(randomNumber===9) musicChanger.href="https://www.youtube.com/watch?v=PslQESlD4xs"; //Weight of the World/the End of YoRHa
         else if(randomNumber===10) musicChanger.href="https://www.youtube.com/watch?v=nPACM1xmAqg"; //Mix
     }
-}
+    else if(def!==0 || control!==1) musicChanger.href="";
+})
