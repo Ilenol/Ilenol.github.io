@@ -16,6 +16,15 @@
 .title{
     font-size: 50px;
 }
+
+#avatar{
+    position: relative;
+    float: left;
+    border-radius: 100%;
+    top: -25px;
+    width:35%;
+}
+
 .intext{
     font-size:30px;
 }

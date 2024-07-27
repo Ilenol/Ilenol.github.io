@@ -16,6 +16,15 @@
 .title{
     font-size: 50px;
 }
+
+#avatar{
+    position: relative;
+    float: left;
+    border-radius: 100%;
+    top: -25px;
+    width:35%;
+}
+
 *{
     color:white;
 }
@@ -31,11 +40,14 @@
 .easter{
     margin-top: 150px;
     font-size: 18px;
+    font-family: "Major Mono Display", monospace;
+    font-weight: 400;
+    font-style: normal;
 }
 #onEaster{
     position:fixed;
     top:55%;
     left:80.26%;
-    width:50px;
-    height:80px;
+    width:3%;
+    height:7.4%;
 }
