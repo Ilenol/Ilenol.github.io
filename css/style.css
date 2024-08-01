@@ -25,9 +25,14 @@
     width:35%;
 }
 
-*{
+.text{
     color:white;
 }
+
+.link{
+    color:white;
+}
+
 .intext{
     font-size:30px;
 }

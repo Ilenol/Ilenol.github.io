@@ -1,4 +1,5 @@
-let def=0;
+//背景更換
+let def=0; //0=背景黑 1=背景白
 let styleChanger = document.querySelector("#colar");
 let reminder=document.querySelector("#reminder");
 let changeColarButton=document.querySelector("#avatar");
@@ -7,6 +8,8 @@ changeColarButton.addEventListener("click",function changeColar(){
         styleChanger.href="css/style2.css";
         def=1;
         control=0;
+        linkChangeColorBack();
+        linkChangeColorBack2();
         easterStyle.style="opacity: 0%;";
         reminder.innerHTML="ps:If U wanna change it back to dark version.<br/>Just ckick on my avatar again.";
     }
@@ -14,12 +17,43 @@ changeColarButton.addEventListener("click",function changeColar(){
         styleChanger.href="css/style.css";
         def=0;
         control=0;
+        linkChangeColorBack();
+        linkChangeColorBack2();
         reminder.innerHTML="ps:If U wanna change this website to bright version.<br/>Just ckick on my avatar.";
     }
 }
 )
 
-let control=0;
+//link change colar 
+let linkColorChanger=document.querySelector(".link1");
+let linkColorChanger2=document.querySelector(".link2");
+
+function linkChangeColor(){
+    if(def===0) linkColorChanger.style="color: #A9A9A9;"
+    else if(def===1) linkColorChanger.style="color: #9400D3;"
+}
+linkColorChanger.addEventListener("mouseover",linkChangeColor)
+
+function linkChangeColor2(){
+    if(def===0) linkColorChanger2.style="color: #A9A9A9;"
+    else if(def===1) linkColorChanger2.style="color: #9400D3;"
+}
+linkColorChanger2.addEventListener("mouseover",linkChangeColor2)
+
+function linkChangeColorBack(){
+    if(def===0) linkColorChanger.style="color: white;"
+    else if(def===1) linkColorChanger.style="color: blue;"
+}
+linkColorChanger.addEventListener("mouseout",linkChangeColorBack)
+
+function linkChangeColorBack2(){
+    if(def===0) linkColorChanger2.style="color: white;"
+    else if(def===1) linkColorChanger2.style="color: blue;"
+}
+linkColorChanger2.addEventListener("mouseout",linkChangeColorBack2)
+
+//easter 觸發
+let control=0; // 0=尚未觸發 1=觸發狀態 
 let easterStyle=document.querySelector(".easter");
 function operator(){
     if(def===0 && control===0){
@@ -32,6 +66,7 @@ function operator(){
     }
 }
 
+// easter randomMusic
 let randomNumber=0;
 let musicChanger=document.querySelector("#Music");
 let musicEventlistener=document.querySelector(".logo");

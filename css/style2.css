@@ -25,10 +25,26 @@
     width:35%;
 }
 
+.text{
+    color: black;
+}
+
+.link{
+    color:blue;
+}
+
 .intext{
     font-size:30px;
 }
 .intext2{
+    font-size: 25px;
+}
+
+.homePageLink{
+    position: relative;
+    top: 20px;
+    right: -30px; 
+    padding: 10px;
     font-size: 25px;
 }
 
