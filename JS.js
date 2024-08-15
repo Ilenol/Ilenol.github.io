@@ -55,6 +55,12 @@ linkColorChanger2.addEventListener("mouseout",linkChangeColorBack2)
 //easter 觸發
 let control=0; // 0=尚未觸發 1=觸發狀態 
 let easterStyle=document.querySelector(".easter");
+let easterText1Oper=document.querySelector("#easterText1");
+let easterText2Oper=document.querySelector("#easterText2");
+let easterText3Oper=document.querySelector("#easterText3");
+let easterText4Oper=document.querySelector("#easterText4");
+let easterText5Oper=document.querySelector("#easterText5");
+let easterText6Oper=document.querySelector("#easterLogo");
 function operator(){
     if(def===0 && control===0){
         control=1;

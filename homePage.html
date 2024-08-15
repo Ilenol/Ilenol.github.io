@@ -10,12 +10,14 @@
         <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
     </head>
     <body>
+        <div>
         <div class="backGround"></div>
-        <h1 class="title text" style="position: relative; top: -33px;">My Home Page</h1>
+        <h1 class="title text" style="position: relative; top: -33px; left: 10px;">My Home Page</h1>
         <img src="png or jpg/avatar.jpg" id="avatar"/>
-        <div style="position:relative;float:left;left: 30px;">
+        <div class="textBox">
         <p class="intext text">
-            Hello! Nice to meet U. My name is Alex U can call Ilenol if U want.<br/>
+            Hello! Nice to meet U.</br>
+            My name is Alex U can call me Ilenol if U want.</br>
             Down below R some of my personal information and links.<br/>
             Feel free to check it out if U R interested.
         <p style="font-size: 18px;" class="text" id="reminder">
@@ -31,17 +33,23 @@
             </li>
         </ul>
         <div class="easter text" style="opacity: 0%;">
-            <p>
-            Looks like somehow U just foundout this easter egg.</br>
-            U can tell that I love Nier series game very much.</br>
-            Specialy Nier:AutoMeta.</br>
-            and Nier:AutoMeta is well known for its theme song.</br>
-            So here are some surprise for U.
-            </p>
-            <a href="" id="Music" target="_blank"><img src="png or jpg/emil.jpg" class="logo" style="border-radius: 100%;"></a>
+            <p id="easterText1">Looks like somehow U just foundout this easter egg.</p>
+            <p id="easterText2">U can tell that I love Nier series game very much.</p>
+            <p id="easterText3">Specialy Nier:AutoMeta.</p>
+            <p id="easterText4">and Nier:AutoMeta is well known for its theme song.</p>
+            <p id="easterText5">So here R some surprise for U. Enjoy.</p>
+            <a href="" id="Music" target="_blank"><img src="png or jpg/emil.jpg" class="logo" id="easterLogo"></a>
         </div>
-        <div id="onEaster" onclick="operator();"></div>
-    </div>
+            <div id="onEaster" onclick="operator();"></div>
+        </div>
+        </div>
+        <footer>
+            <p class="footerText" id="footer1" data-text="Ways to contact me R down below.">Ways to contact me R down below.</p>
+            <p class="footerText" id="footer2" data-text="Discord：alex_lin_1103">Discord：alex_lin_1103</p>
+            <p class="footerText" id="footer3" data-text="Phone number：0965-177-469">Phone number：0965-177-469</p>
+            <p class="footerText" id="footer4" data-text="Email：lonely931103@gmail.com">Email：lonely931103@gmail.com</p>
+        </footer>
+        
     </body>
     <script src="JS.js"></script>
 </html>
