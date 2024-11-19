@@ -5,7 +5,8 @@ body {
     margin: 0 0 0 10px;
     min-height: 100%;
     display: grid; 
-    grid-template-rows: 1fr auto; 
+    grid-template-rows: 1fr auto;
+    overflow-x: hidden;
 }
 
 .backGround{
@@ -23,8 +24,12 @@ body {
     min-height: 100%;
     width: 100%;
 }
+
 .title{
     font-size: 50px;
+    position: relative;
+    top: -25px;
+    left: 10px;
 }
 
 #avatar{
@@ -42,12 +47,13 @@ p{
 
 .text{
     color: black;
+    letter-spacing: 1px;
 }
 
 .textBox{
     position:relative;
     float:left; 
-    left:30px;
+    left:45px;
 }
 
 .link{
@@ -216,7 +222,7 @@ footer {
     width: 100%;
     text-align: center;
     position: absolute;
-    text-shadow: 2px 0 red;
+    text-shadow: 2px 0 #FF00CC;
     left:-1.5px;
     clip-path: inset(0 0 0 0);
     animation: broken1 2s infinite linear alternate-reverse;
@@ -227,7 +233,7 @@ footer {
     width: 100%;
     text-align: center;
     position: absolute;
-    text-shadow: 2px 0 red;
+    text-shadow: 2px 0 #FF00CC;
     left:-1.5px;
     clip-path: inset(0 0 0 0);
     animation: broken1 2s infinite linear alternate-reverse;
@@ -238,7 +244,7 @@ footer {
     width: 100%;
     text-align: center;
     position: absolute;
-    text-shadow: 2px 0 red;
+    text-shadow: 2px 0 #FF00CC;
     left:-1.5px;
     clip-path: inset(0 0 0 0);
     animation: broken1 2s infinite linear alternate-reverse;
@@ -249,7 +255,7 @@ footer {
     width: 100%;
     text-align: center;
     position: absolute;
-    text-shadow: 2px 0 red;
+    text-shadow: 2px 0 #FF00CC;
     left:-1.5px;
     clip-path: inset(0 0 0 0);
     animation: broken1 2s infinite linear alternate-reverse;
@@ -327,7 +333,7 @@ footer {
     width: 100%;
     text-align: center;
     position: absolute;
-    text-shadow: -2px 0 purple;
+    text-shadow: -2px 0 #00FFE1;
     left:1.5px;
     clip-path: inset(0 0 0 0);
     animation: broken2 2s infinite linear alternate-reverse;
@@ -337,7 +343,7 @@ footer {
     width: 100%;
     text-align: center;
     position: absolute;
-    text-shadow: -2px 0 purple;
+    text-shadow: -2px 0 #00FFE1;
     left:1.5px;
     clip-path: inset(0 0 0 0);
     animation: broken2 2s infinite linear alternate-reverse;
@@ -347,7 +353,7 @@ footer {
     width: 100%;
     text-align: center;
     position: absolute;
-    text-shadow: -2px 0 purple;
+    text-shadow: -2px 0 #00FFE1;
     left:1.5px;
     clip-path: inset(0 0 0 0);
     animation: broken2 2s infinite linear alternate-reverse;
@@ -357,7 +363,7 @@ footer {
     width: 100%;
     text-align: center;
     position: absolute;
-    text-shadow: -2px 0 purple;
+    text-shadow: -2px 0 #00FFE1;
     left:1.5px;
     clip-path: inset(0 0 0 0);
     animation: broken2 2s infinite linear alternate-reverse;

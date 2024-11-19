@@ -6,6 +6,7 @@ body {
     min-height: 100%;
     display: grid; 
     grid-template-rows: 1fr auto; 
+    overflow-x: hidden;
 }
 
 .backGround{
@@ -23,8 +24,12 @@ body {
     min-height: 100%;
     width: 100%;
 }
+
 .title{
     font-size: 50px;
+    position: relative;
+    top: -25px;
+    left: 10px;
 }
 
 #avatar{
@@ -42,6 +47,7 @@ p{
 
 .text{
     color:white;
+    letter-spacing: 1px;
 }
 
 .link{
@@ -58,7 +64,7 @@ p{
 .textBox{
     position:relative;
     float:left; 
-    left:30px;
+    left:45px;
 }
 
 .logo{
@@ -67,26 +73,33 @@ p{
 }
 
 @keyframes typing {
-	from { width: 0 }
+    from { width: 0 }
 }
 
 @keyframes caret {
-	50% { border-right-color: transparent; }
+    50% { border-right-color: transparent; }
 }
 
-.easter{
+.easter {
     position: relative;
     top: 50px;
     font-size: 18px;
     font-family: "Major Mono Display", monospace;
     font-weight: 400;
     font-style: normal;
+    
+}
 
-	width: 678.3px;
-	white-space: nowrap;
-	overflow: hidden;
-	border-right: .05em solid;
-	animation: typing 4s steps(51) 1, caret 1s steps(1) infinite;
+.typing-animation {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: .05em solid;
+    animation: typing 4s steps(40) 1, caret 1s steps(1) infinite;
+}
+
+.hidden {
+    display: none;
 }
 
 #onEaster{
